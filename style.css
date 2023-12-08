@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.discordapp.net/attachments/196074315161010177/1182502856050352178/1201402.jpg?ex=6584ee9a&is=6572799a&hm=3c507c376b603574c277f44f5018ab1de561af5237d91b9140f298617fdfa1ff&=&format=webp&width=1346&height=676');
+    background-size: cover; /* Faz com que a imagem cubra todo o corpo */
+    background-position: center;
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(253, 253, 253);
+    margin-top: -10dvh;
+    margin-bottom: 18dvh; /* Adiciona espaço abaixo do h1 */
+    margin-left: -90dvh;
+}
+
+p {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    top: 40px; /* Adiciona espaço acima do p */
+    white-space: pre-line; /* Adiciona quebra de linha */
+}
+
+button {
+    margin-top: 20dvh;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(37, 1, 66);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(59, 4, 104);
+}
